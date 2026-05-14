@@ -1,5 +1,5 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
-export const SITE_TITLE = 'Astro Blog';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_TITLE = 'acrestead.dev';
+export const SITE_TAGLINE = 'Homesteading × technology.';
+export const SITE_DESCRIPTION =
+	'Where homesteading meets the homelab — practical writing on growing food, working land, and the tools that make small-scale farming smarter.';
+export const SITE_LOCALE = 'en_US';
