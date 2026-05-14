@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acrestead.dev/sitemap-index.xml
