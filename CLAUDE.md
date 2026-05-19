@@ -6,7 +6,7 @@ Content site at the intersection of homesteading and technology — practical wr
 
 - **Framework:** Astro (blog template, TypeScript strict)
 - **Project root:** `./site/` (the Astro project lives in a subfolder; the repo root holds infra + this file)
-- **Hosting:** Cloudflare Pages, Git-connected to this repo (auto-deploys on push to `main`)
+- **Hosting:** Cloudflare Workers (Workers Builds) deploying static assets. Config in `site/wrangler.jsonc` — explicitly static-asset-only so Wrangler doesn't auto-install `@astrojs/cloudflare` and switch the build to server mode. Worker name: `acrestead`. Auto-deploys on push to `main`.
 - **Domain:** acrestead.dev
 
 ## Brand
